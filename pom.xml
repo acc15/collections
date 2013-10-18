@@ -20,9 +20,16 @@
         </developer>
     </developers>
 
+    <distributionManagement>
+        <repository>
+            <id>home</id>
+            <url>file:/E:/MyProgs/Libs/Java/repository</url>
+        </repository>
+    </distributionManagement>
+
     <scm>
-        <connection>https://github.com/acc15/collections.git</connection>
-        <developerConnection>https://github.com/acc15/collections.git</developerConnection>
+        <connection>scm:git:https://github.com/acc15/collections.git</connection>
+        <developerConnection>scm:git:https://github.com/acc15/collections.git</developerConnection>
         <url>https://github.com/acc15/collections</url>
     </scm>
 
